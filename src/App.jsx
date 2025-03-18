@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NotFoundPage from "./pages/NotFoundPage";
+import Coin from "./pages/Coin";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/coin" element={<Coin />} />
         <Route path="*" element={<NotFoundPage />}></Route>
       </Routes>
     </div>
